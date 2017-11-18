@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+
+@font-face {
+  font-family: "Pacifico";
+src: url('../fonts/Pacifico-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Berkshire Swash";
+src: url('../fonts/BerkshireSwash-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Oleo Script";
+src: url('../fonts/OleoScript-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Lobster Two";
+src: url('../fonts/LobsterTwo-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Merienda One";
+src: url('../fonts/MeriendaOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Arizonia";
+src: url('../fonts/Arizonia-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Cookie";
+src: url('../fonts/Cookie-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Great Vibes";
+src: url('../fonts/GreatVibes-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Leckerli One";
+src: url('../fonts/LeckerliOne-Regular.ttf');
+}
+
