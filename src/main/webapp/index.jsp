@@ -5,14 +5,14 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 
-<link rel="stylesheet" href="./css/webfonts.css">
-<link rel="stylesheet" href="./css/bootstrap.css">
+<link rel="stylesheet" href="<%=request.getContextPath()%>/css/webfonts.css">
+<link rel="stylesheet" href="<%=request.getContextPath()%>/css/bootstrap.css">
 
 
 
-<script src="./js/jquery-3.2.1.js"></script>
-<script src="./js/popper.js"></script>
-<script src="./js/bootstrap.js"></script>
+<script src="<%=request.getContextPath()%>/js/jquery-3.2.1.js"></script>
+<script src="<%=request.getContextPath()%>/js/popper.js"></script>
+<script src="<%=request.getContextPath()%>/js/bootstrap.js"></script>
 
 <style>
 #brand {
@@ -22,7 +22,7 @@
 }
 
 body {
-	background-image: url('./images/Buddies_wall.jpg');
+	background-image: url('./resources/images/Buddies_wall.jpg');
 	background-size: 70%;
 	background-repeat: no-repeat;
 	/*     background-position: center center; */
@@ -48,21 +48,11 @@ body {
 
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		<ul class="navbar-nav mr-auto">
-			<li class="nav-item active"><a class="nav-link" href="index.jsp">Home
+			<li class="nav-item active"><a class="nav-link" href="#register">Home
 					<span class="sr-only">(current)</span>
 			</a></li>
-			<li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-			<li class="nav-item dropdown"><a
-				class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-				role="button" data-toggle="dropdown" aria-haspopup="true"
-				aria-expanded="false"> Dropdown </a>
-				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="#">Action</a> <a
-						class="dropdown-item" href="#">Another action</a>
-					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="#">Something else here</a>
-				</div></li>
-			<li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a>
+			<li class="nav-item"><a class="nav-link" href="#">Overview</a></li>
+			<li class="nav-item"><a class="nav-link disabled" href="#">About Us</a>
 			</li>
 		</ul>
 		<form class="form-inline my-2 my-lg-0" method="post">
@@ -76,7 +66,7 @@ body {
 	</nav>
 
 
-	<div class="mt-5 float-right col-sm-6 ">
+	<div class="mt-5 float-right col-sm-6 " id="register">
 		<div class="card transparent">
 			<div class="card-body">
 				<h4 class="card-title">Wanna join the group...?</h4>
