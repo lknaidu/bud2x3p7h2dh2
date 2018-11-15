@@ -8,7 +8,7 @@
   <name>BuddiesHub Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <properties>
-    <tomcat.version>8.5.2</tomcat.version>
+    <tomcat.version>9.0.13</tomcat.version>
   </properties>
   <dependencies>
     <dependency>
